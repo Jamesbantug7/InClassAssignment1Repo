@@ -1,75 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henry's Gucci Journal - Your Workspace</title>
-    <link rel="stylesheet" href="journal_starter.css">
-</head>
-<body>
-    <!-- Main container with green border -->
-    <div id="main-container">
-        
-        <!-- Header section with red border -->
-        <header id="header-box">
-            <h1>Henry's Gucci Journal</h1>
-            <p class="tagline">So fresh and so clean</p>
-        </header>
+/* ============================================
+   HENRY'S JOURNAL - CSS POSITIONING EXERCISE
+   STARTER TEMPLATE - FILL IN THE BLANKS!
+   ============================================
+   
+   Complete the TODOs below to style the journal.
+   Refer to instructions for detailed guidance.
+   
+   Author: [Your Name Here]
+   Date: 02/02/2026
+============================================ */
 
-        <!-- Sidebar with Friends list -->
-        <aside id="sidebar">
-            <div class="sidebar-content">
-                <h2>Friends</h2>
-                <ul class="friends-list">
-                    <li>190m</li>
-                    <li>Buddies</li>
-                    <li>Big Will</li>
-                    <li>Conan the Librarian</li>
-                </ul>
-            </div>
-        </aside>
+/* ============================================
+   STEP 1: BASE RESET & TYPOGRAPHY
+   ============================================ */
 
-        <!-- Main content area -->
-        <main id="content-area">
-            
-            <!-- Journal Entry 1 -->
-            <article class="journal-entry blue-box">
-                <h2 class="entry-title">02/02/2026: The German Knife</h2>
-                <div class="entry-content">
-                    <img src="knife.jpg" alt="The German Knife" class="entry-image">
-                    <p>
-                        Yesterday I went to the store and got a premium German-made chef's knife! (What better way to say 
-                        I love myself than to invest in quality cutlery?) The precision and craftsmanship of German knives 
-                        are unmatched. Should I grab a whetstone to keep it sharp, or maybe a magnetic knife holder? 
-                        What are you thinking!? Bruh hey Bruh, are you going to help me decide or what!?
-                    </p>
-                </div>
-            </article>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-            <!-- Journal Entry 2 -->
-            <article class="journal-entry blue-box">
-                <h2 class="entry-title">02/02/2026: Cookie Monster Cupcakes</h2>
-                <div class="entry-content">
-                    <img src="cupcake.jpg" alt="Cookie Monster Cupcakes" class="entry-image">
-                    <p>
-                        My favourite cartoon character is Cookie Monster, and my favourite dessert is cupcakes, 
-                        so Cookie Monster cupcakes are the best of both worlds.
-                    </p>
-                    <p>
-                        <strong>Did you know?</strong> Cookie Monster once said, "Sometimes me think what is love, 
-                        and then me think love is what last cookie is for. Me give up the last cookie for you." 
-                        I wonder if the same applies for cupcakes? (If so, I don't think I can ever love ANYONE!)
-                    </p>
-                </div>
-            </article>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
 
-        </main>
+/* ============================================
+   STEP 2: MAIN CONTAINER
+   ============================================
+   TODO: Add styles to create:
+   - White background
+   - Max width of 960px
+   - Center it horizontally
+   - Add padding and border radius
+============================================ */
 
-        <!-- Footer -->
-        <footer id="footer">
-            <p>&copy; 2026 Henry's Journal. All rights reserved.</p>
-        </footer>
+#main-container {
+    /* YOUR CODE HERE */
+    
+}
 
-    </div>
-</body>
-</html>
+/* ============================================
+   STEP 3: HEADER STYLING
+   ============================================
+   TODO: Style the header with padding,
+   background color, and text alignment
+============================================ */
+
+#header-box {
+    /* YOUR CODE HERE */
+    
+}
+
+/* ============================================
+   STEP 4: CREATE TWO-COLUMN LAYOUT
+   ============================================
+   TODO: Use float to create sidebar (25%) 
+   and content area (75%)
+============================================ */
+
+#sidebar {
+    /* YOUR CODE HERE */
+    
+}
+
+#content-area {
+    /* YOUR CODE HERE */
+    
+}
+
+/* ============================================
+   STEP 5: CLEARFIX FOR PARENT COLLAPSE
+   ============================================
+   TODO: Add clearfix to main-container
+============================================ */
+
+#main-container::after {
+    /* YOUR CODE HERE */
+    
+}
+
+/* ============================================
+   STEP 6: STYLE JOURNAL ENTRIES
+   ============================================
+   TODO: Add spacing, borders, and styling
+============================================ */
+
+.journal-entry {
+    /* YOUR CODE HERE */
+    
+}
+
+.entry-image {
+    /* YOUR CODE HERE */
+    /* Add picture frame effect */
+    
+}
+
+/* ============================================
+   STEP 7: RESPONSIVE DESIGN
+   ============================================
+   TODO: Make layout stack on mobile
+============================================ */
+
+@media (max-width: 768px) {
+    /* YOUR CODE HERE */
+    
+}
