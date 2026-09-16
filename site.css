@@ -122,7 +122,7 @@ body {
 }
 
 .entry-title {
-    color: #333;
+    color: #ebe6e6;
     margin-bottom: 10px;
 }
 
@@ -183,4 +183,38 @@ body {
     a {
         color: #8fc5ff;
     }
+}
+
+/*Special feature 2: Hover Effects
+
+*/
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover {
+    color: #1a365d;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.journal-entry {
+    transition: transform 0.35s ease-in-out, box-shadow 0.35s ease-in-out;
+}
+
+.journal-entry:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(26, 54, 93, 0.08);
+}
+
+.entry-image {
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.entry-image:hover {
+    transform: scale(1.02);
+    filter: brightness(1.05) contrast(1.02);
 }
