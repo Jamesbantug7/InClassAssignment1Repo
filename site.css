@@ -15,17 +15,14 @@
    ============================================ */
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333;
+    font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    padding: 20px;
 }
 
 /* ============================================
@@ -39,7 +36,9 @@ body {
 ============================================ */
 
 #main-container {
-    /* YOUR CODE HERE */
+    width: 960px;
+    margin: 20px auto;
+    background: white;
     
 }
 
@@ -51,8 +50,15 @@ body {
 ============================================ */
 
 #header-box {
-    /* YOUR CODE HERE */
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
     
+}
+
+#header-box h1 {
+    font-size: 2em;
 }
 
 /* ============================================
@@ -63,14 +69,19 @@ body {
 ============================================ */
 
 #sidebar {
-    /* YOUR CODE HERE */
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: #f0f0f0;
     
 }
 
 #content-area {
-    /* YOUR CODE HERE */
-    
+    float: left;
+    width: 75%;
+    padding: 20px;
 }
+    
 
 /* ============================================
    STEP 5: CLEARFIX FOR PARENT COLLAPSE
